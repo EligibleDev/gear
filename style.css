@@ -22,13 +22,13 @@
     text-align: left;
 }
 
-.t-r {
-    text-align: right;
+.sec-padd{
+    margin: 3.5rem 0rem;
+
 }
 
-section,
-.section {
-    padding: 3.5rem 0rem;
+.t-r {
+    text-align: right;
 }
 
 .paragraph {
@@ -53,6 +53,11 @@ section,
 /* default css end */
 
 /* header css start */
+header{
+    padding: 3.5rem 0rem;
+
+}
+
 header>nav>ul.menu {
     gap: 2rem;
     list-style: none;
@@ -93,7 +98,20 @@ header .menu-item {
     padding: 2rem 0rem;
 }
 
-.banner-image{
+/* .banner-image{
     width: 100%;
-}
+} */
 /* banner css end  */
+
+/* brand css start */
+
+
+.image-holder{
+    border-top: 2px solid #EFEFEF;
+    border-bottom: 2px solid #EFEFEF;
+    padding: 1.8rem;
+    flex-wrap: wrap;
+    gap: 4rem;
+    justify-content: center;
+}
+/* brand css end  */
