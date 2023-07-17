@@ -31,6 +31,25 @@ section,
     padding: 3.5rem 0rem;
 }
 
+.paragraph {
+    color: #3A3A3A;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.default-button {
+    color: #FFF;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: 700;
+    border: none;
+    border-radius: 3rem;
+    background: #E02C6D;
+    padding: 0.63rem 1.5rem;
+}
+
 /* default css end */
 
 /* header css start */
@@ -39,15 +58,42 @@ header>nav>ul.menu {
     list-style: none;
 }
 
-.logo{
+.logo {
     cursor: pointer;
 }
 
 header .menu-item {
-     cursor: pointer;
+    cursor: pointer;
 }
 
-#mmi{
+#mmi {
     display: none
 }
+
 /* header css end  */
+
+/* banner css start */
+.banner-left {
+    width: 50%;
+}
+
+.banner-title {
+    font-size: 3.5rem;
+}
+
+.banner-left> .paragraph{
+    padding: 1.8rem 0;
+}
+
+.banner-right {
+    width: 50%;
+    background: url('./images/Circle\ design.svg');
+    background-position: center right;
+    background-repeat: no-repeat;
+    padding: 2rem 0rem;
+}
+
+.banner-image{
+    width: 100%;
+}
+/* banner css end  */

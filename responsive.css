@@ -2,6 +2,20 @@
     .container{
         padding: 0rem 7rem;
     }
+
+/* banner start */
+
+    .banner-section{
+        flex-direction: column-reverse;
+    }
+
+    .banner-section > div{
+        width: 100%;
+        text-align: center;
+        background-position: center;
+        background-size: contain;
+    }
+
 }
 
 
@@ -26,12 +40,24 @@
     .container{
         padding: 0rem 2rem;
     } 
+
+    .banner-title{
+        font-size: 3rem;
+    }
+
+    .banner-left> .paragraph{
+        padding: 1rem 0;
+    }
 }
 
 
 
 @media screen and (max-width:480px) {
-    
+    .banner-title{
+        font-size: 2rem;
+    } 
+
+
 }
 
 
