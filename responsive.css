@@ -17,9 +17,21 @@
     }
 
     .products-container {
-        grid-template-columns: repeat(3, 30%);
+        grid-template-columns: repeat(2, 45%);
         justify-content: space-between;
         gap: 2rem;
+    }
+
+    .newslater-section{
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+
+    .newslater-content{
+        text-align: center;
+        width: 100%;
+        padding: 0;
     }
 
 }
@@ -88,6 +100,10 @@
         font-size: 2rem;
     } 
     .banner-image{
+        width: 100%;
+    }
+
+    .newslater-image{
         width: 100%;
     }
 
